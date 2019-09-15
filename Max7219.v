@@ -22,7 +22,7 @@ module max7219 (
   localparam TRANSFER_ADDR_state = 2'd1;
   localparam TRANSFER_DATA_state = 2'd2;
 
-  reg [1:0] M_state_d, M_state_q = IDLE_state;
+  reg M_state_d, M_state_q = IDLE_state;
   wire M_spi_mosi;
   wire M_spi_sck;
   wire [7:0] M_spi_data_out;

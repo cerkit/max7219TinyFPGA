@@ -1,2 +1,4 @@
 .sconsign.dblite
 top_tb.vcd
+hardware.bin
+hardware.blif
