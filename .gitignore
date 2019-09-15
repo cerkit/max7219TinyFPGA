@@ -2,3 +2,4 @@
 top_tb.vcd
 hardware.bin
 hardware.blif
+hardware.asc
