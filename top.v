@@ -1,9 +1,9 @@
 // look in pins.pcf for all the pin names on the TinyFPGA BX board
 module top (
     input wire CLK,    // 16MHz clock
-    output reg PIN_13, // SPI CLK
-    output reg PIN_12, // SPI DIN
-    output reg PIN_11, // SPI CS
+    output reg PIN_13, // Max7219 CLK
+    output reg PIN_12, // Max7219 DIN
+    output reg PIN_11, // Max7219 CS
     output wire USBPU  // USB pull-up resistor
 );
     // drive USB pull-up resistor to '0' to disable USB
