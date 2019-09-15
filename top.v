@@ -34,10 +34,10 @@ module top (
       .sck(M_max_sck),
       .busy(M_max_busy)
     );
-    
+
     localparam IDLE_state = 3'd0;
-    localparam SEND_SHUTDOWN_state = 3'd1;
-    localparam SEND_RESET_state = 3'd2;
+    localparam SEND_RESET_state = 3'd1;
+    localparam SEND_MAX_INTENSITY_state = 3'd2;
     localparam SEND_NO_DECODE_state = 3'd3;
     localparam SEND_ALL_DIGITS_state = 3'd4;
     localparam SEND_WORD_state = 3'd5;
@@ -94,20 +94,20 @@ module top (
         IDLE_state: begin
           rst <= 1'b0;
           M_segment_index_d = 1'h0;
-          M_state_d = SEND_SHUTDOWN_state;
-        end
-        SEND_SHUTDOWN_state: begin
-          M_max_start = 1'h1;
-          max_addr = 8'h0c;
-          max_data = 8'h00;
-          if (M_max_busy != 1'h1) begin
-            M_state_d = SEND_RESET_state;
-          end
+          M_state_d = SEND_RESET_state;
         end
         SEND_RESET_state: begin
           M_max_start = 1'h1;
           max_addr = 8'h0c;
           max_data = 8'h01;
+          if (M_max_busy != 1'h1) begin
+            M_state_d = SEND_MAX_INTENSITY_state;
+          end
+        end
+        SEND_MAX_INTENSITY_state: begin
+          M_max_start = 1'h1;
+          max_addr = 8'h0a;
+          max_data = 8'hFF;
           if (M_max_busy != 1'h1) begin
             M_state_d = SEND_NO_DECODE_state;
           end

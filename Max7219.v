@@ -22,15 +22,14 @@ module max7219 (
   localparam TRANSFER_ADDR_state = 2'd1;
   localparam TRANSFER_DATA_state = 2'd2;
 
-  reg M_state_d, M_state_q = IDLE_state;
-  wire M_spi_mosi;
-  wire M_spi_sck;
-  wire [7:0] M_spi_data_out;
-  wire M_spi_new_data;
-  wire M_spi_busy;
-  reg M_spi_start;
-  reg [7:0] M_spi_data_in;
-
+  reg [1:0] M_state_d, M_state_q = IDLE_state;
+  wire [1-1:0] M_spi_mosi;
+  wire [1-1:0] M_spi_sck;
+  wire [8-1:0] M_spi_data_out;
+  wire [1-1:0] M_spi_new_data;
+  wire [1-1:0] M_spi_busy;
+  reg [1-1:0] M_spi_start;
+  reg [8-1:0] M_spi_data_in;
   spi_master spi (
     .clk(clk),
     .rst(rst),
@@ -43,7 +42,6 @@ module max7219 (
     .new_data(M_spi_new_data),
     .busy(M_spi_busy)
   );
-
   reg [7:0] M_data_d, M_data_q = 1'h0;
   reg [7:0] M_addr_d, M_addr_q = 1'h0;
   reg M_load_state_d, M_load_state_q = 1'h0;
@@ -52,10 +50,9 @@ module max7219 (
 
   reg mosi;
 
-  wire [7:0] M_count_value;
-  reg M_count_clk;
-  reg M_count_rst;
-
+  wire [8-1:0] M_count_value;
+  reg [1-1:0] M_count_clk;
+  reg [1-1:0] M_count_rst;
   counter count (
     .clk(M_count_clk),
     .rst(M_count_rst),
