@@ -22,6 +22,7 @@ module top (
     reg [7:0] M_max_addr_in;
     reg [7:0] M_max_din;
     reg M_max_start;
+
     max7219 max (
       .clk(CLK),
       .rst(rst),
@@ -33,6 +34,7 @@ module top (
       .sck(M_max_sck),
       .busy(M_max_busy)
     );
+    
     localparam IDLE_state = 3'd0;
     localparam SEND_SHUTDOWN_state = 3'd1;
     localparam SEND_RESET_state = 3'd2;
@@ -49,6 +51,7 @@ module top (
 
     reg [7:0] max_data;
 
+    // Define the Characters used for display
     localparam C0 = 8'h7e;
     localparam C1 = 8'h30;
     localparam C2 = 8'h6d;

@@ -239,210 +239,210 @@
 .attr src "C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:40"
 .param LUT_INIT 01
 .gate SB_LUT4 I0=$false I1=$true I2=max.spi.M_ctr_q[0] I3=$false O=$techmap\max.spi.$2\M_ctr_d[2:0][0]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:71|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:71|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_CARRY CI=max.spi.M_ctr_q[0] CO=$auto$alumacc.cc:474:replace_alu$504.C[2] I0=$false I1=max.spi.M_ctr_q[1]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:71|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:71|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
 .gate SB_LUT4 I0=$false I1=$false I2=max.spi.M_ctr_q[2] I3=$auto$alumacc.cc:474:replace_alu$504.C[2] O=$techmap\max.spi.$2\M_ctr_d[2:0][2]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:71|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:71|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_LUT4 I0=$false I1=$true I2=max.spi.M_sck_reg_q[0] I3=$false O=$techmap\max.spi.$add$spi_master.v:63$24_Y[0]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_CARRY CI=max.spi.M_sck_reg_q[0] CO=$auto$alumacc.cc:474:replace_alu$507.C[2] I0=$false I1=max.spi.M_sck_reg_q[1]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
 .gate SB_LUT4 I0=$false I1=$false I2=max.spi.M_sck_reg_q[2] I3=$auto$alumacc.cc:474:replace_alu$507.C[2] O=$techmap\max.spi.$add$spi_master.v:63$24_Y[2]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_CARRY CI=$auto$alumacc.cc:474:replace_alu$507.C[2] CO=$auto$alumacc.cc:474:replace_alu$507.C[3] I0=$false I1=max.spi.M_sck_reg_q[2]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
 .gate SB_LUT4 I0=$false I1=$false I2=max.spi.M_sck_reg_q[3] I3=$auto$alumacc.cc:474:replace_alu$507.C[3] O=$techmap\max.spi.$add$spi_master.v:63$24_Y[3]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_CARRY CI=$auto$alumacc.cc:474:replace_alu$507.C[3] CO=$auto$alumacc.cc:474:replace_alu$507.C[4] I0=$false I1=max.spi.M_sck_reg_q[3]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
 .gate SB_LUT4 I0=$false I1=$false I2=max.spi.M_sck_reg_q[4] I3=$auto$alumacc.cc:474:replace_alu$507.C[4] O=$techmap\max.spi.$add$spi_master.v:63$24_Y[4]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_CARRY CI=$auto$alumacc.cc:474:replace_alu$507.C[4] CO=$auto$alumacc.cc:474:replace_alu$507.C[5] I0=$false I1=max.spi.M_sck_reg_q[4]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
 .gate SB_LUT4 I0=$false I1=$false I2=max.spi.M_sck_reg_q[5] I3=$auto$alumacc.cc:474:replace_alu$507.C[5] O=$techmap\max.spi.$add$spi_master.v:63$24_Y[5]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_CARRY CI=$auto$alumacc.cc:474:replace_alu$507.C[5] CO=$auto$alumacc.cc:474:replace_alu$507.C[6] I0=$false I1=max.spi.M_sck_reg_q[5]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
 .gate SB_LUT4 I0=$false I1=$false I2=max.spi.M_sck_reg_q[6] I3=$auto$alumacc.cc:474:replace_alu$507.C[6] O=$techmap\max.spi.$add$spi_master.v:63$24_Y[6]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_CARRY CI=$auto$alumacc.cc:474:replace_alu$507.C[6] CO=$auto$alumacc.cc:474:replace_alu$507.C[7] I0=$false I1=max.spi.M_sck_reg_q[6]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
 .gate SB_LUT4 I0=$false I1=$false I2=max.spi.M_sck_reg_q[7] I3=$auto$alumacc.cc:474:replace_alu$507.C[7] O=$techmap\max.spi.$add$spi_master.v:63$24_Y[7]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:63|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_LUT4 I0=$false I1=$true I2=M_segment_index_q[0] I3=$false O=$2\max_addr[7:0][0]
-.attr src "top.v:131|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:134|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_CARRY CI=M_segment_index_q[0] CO=$auto$alumacc.cc:474:replace_alu$510.C[2] I0=$false I1=M_segment_index_q[1]
-.attr src "top.v:131|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
+.attr src "top.v:134|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
 .gate SB_LUT4 I0=$false I1=$false I2=M_segment_index_q[2] I3=$auto$alumacc.cc:474:replace_alu$510.C[2] O=$2\max_addr[7:0][2]
-.attr src "top.v:131|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:134|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_CARRY CI=$auto$alumacc.cc:474:replace_alu$510.C[2] CO=$auto$alumacc.cc:474:replace_alu$510.C[3] I0=$false I1=M_segment_index_q[2]
-.attr src "top.v:131|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
+.attr src "top.v:134|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
 .gate SB_LUT4 I0=$false I1=$false I2=$false I3=$auto$alumacc.cc:474:replace_alu$510.C[3] O=$2\max_addr[7:0][3]
-.attr src "top.v:131|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:134|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_LUT4 I0=$false I1=$true I2=M_segment_index_q[0] I3=$false O=$abc$4406$n301
-.attr src "top.v:134|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:137|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_CARRY CI=M_segment_index_q[0] CO=$auto$alumacc.cc:474:replace_alu$513.C[2] I0=$false I1=M_segment_index_q[1]
-.attr src "top.v:134|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
+.attr src "top.v:137|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
 .gate SB_LUT4 I0=$false I1=$false I2=M_segment_index_q[2] I3=$auto$alumacc.cc:474:replace_alu$513.C[2] O=$abc$4406$n305
-.attr src "top.v:134|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:137|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_LUT4 I0=$false I1=$true I2=max.count.M_ctr_q[0] I3=$false O=max.count.M_ctr_d[0]
-.attr src "top.v:25|Max7219.v:56|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:26|Max7219.v:59|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_CARRY CI=max.count.M_ctr_q[0] CO=$auto$alumacc.cc:474:replace_alu$516.C[2] I0=$false I1=max.count.M_ctr_q[1]
-.attr src "top.v:25|Max7219.v:56|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
+.attr src "top.v:26|Max7219.v:59|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
 .gate SB_LUT4 I0=$false I1=$false I2=max.count.M_ctr_q[2] I3=$auto$alumacc.cc:474:replace_alu$516.C[2] O=max.count.M_ctr_d[2]
-.attr src "top.v:25|Max7219.v:56|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:26|Max7219.v:59|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_CARRY CI=$auto$alumacc.cc:474:replace_alu$516.C[2] CO=$auto$alumacc.cc:474:replace_alu$516.C[3] I0=$false I1=max.count.M_ctr_q[2]
-.attr src "top.v:25|Max7219.v:56|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
+.attr src "top.v:26|Max7219.v:59|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
 .gate SB_LUT4 I0=$false I1=$false I2=max.count.M_ctr_q[3] I3=$auto$alumacc.cc:474:replace_alu$516.C[3] O=max.count.M_ctr_d[3]
-.attr src "top.v:25|Max7219.v:56|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:26|Max7219.v:59|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_CARRY CI=$auto$alumacc.cc:474:replace_alu$516.C[3] CO=$auto$alumacc.cc:474:replace_alu$516.C[4] I0=$false I1=max.count.M_ctr_q[3]
-.attr src "top.v:25|Max7219.v:56|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
+.attr src "top.v:26|Max7219.v:59|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
 .gate SB_LUT4 I0=$false I1=$false I2=max.count.M_ctr_q[4] I3=$auto$alumacc.cc:474:replace_alu$516.C[4] O=max.count.M_ctr_d[4]
-.attr src "top.v:25|Max7219.v:56|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:26|Max7219.v:59|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_CARRY CI=$auto$alumacc.cc:474:replace_alu$516.C[4] CO=$auto$alumacc.cc:474:replace_alu$516.C[5] I0=$false I1=max.count.M_ctr_q[4]
-.attr src "top.v:25|Max7219.v:56|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
+.attr src "top.v:26|Max7219.v:59|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
 .gate SB_LUT4 I0=$false I1=$false I2=max.count.M_ctr_q[5] I3=$auto$alumacc.cc:474:replace_alu$516.C[5] O=max.count.M_ctr_d[5]
-.attr src "top.v:25|Max7219.v:56|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:26|Max7219.v:59|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_CARRY CI=$auto$alumacc.cc:474:replace_alu$516.C[5] CO=$auto$alumacc.cc:474:replace_alu$516.C[6] I0=$false I1=max.count.M_ctr_q[5]
-.attr src "top.v:25|Max7219.v:56|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
+.attr src "top.v:26|Max7219.v:59|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
 .gate SB_LUT4 I0=$false I1=$false I2=max.count.M_ctr_q[6] I3=$auto$alumacc.cc:474:replace_alu$516.C[6] O=max.count.M_ctr_d[6]
-.attr src "top.v:25|Max7219.v:56|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:26|Max7219.v:59|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_CARRY CI=$auto$alumacc.cc:474:replace_alu$516.C[6] CO=$auto$alumacc.cc:474:replace_alu$516.C[7] I0=$false I1=max.count.M_ctr_q[6]
-.attr src "top.v:25|Max7219.v:56|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
+.attr src "top.v:26|Max7219.v:59|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:47"
 .gate SB_LUT4 I0=$false I1=$false I2=max.count.M_ctr_q[7] I3=$auto$alumacc.cc:474:replace_alu$516.C[7] O=max.count.M_ctr_d[7]
-.attr src "top.v:25|Max7219.v:56|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
+.attr src "top.v:26|Max7219.v:59|counter.v:35|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/arith_map.v:53"
 .param LUT_INIT 0110100110010110
 .gate SB_DFF C=CLK D=$0\M_segments_q[63:0][61] Q=M_segments_q[61]
-.attr src "top.v:155|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
+.attr src "top.v:158|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
 .gate SB_DFFESR C=CLK D=M_segment_index_d[0] E=$abc$4406$n160 Q=M_segment_index_q[0] R=rst
-.attr src "top.v:155|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:158|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=M_segment_index_d[1] E=$abc$4406$n160 Q=M_segment_index_q[1] R=rst
-.attr src "top.v:155|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:158|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=M_segment_index_d[2] E=$abc$4406$n160 Q=M_segment_index_q[2] R=rst
-.attr src "top.v:155|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:158|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=M_max_addr_in[0] E=$abc$4406$n163 Q=max.M_addr_q[0] R=rst
-.attr src "top.v:25|Max7219.v:110|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:113|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=M_max_addr_in[1] E=$abc$4406$n163 Q=max.M_addr_q[1] R=rst
-.attr src "top.v:25|Max7219.v:110|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:113|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=M_max_addr_in[2] E=$abc$4406$n163 Q=max.M_addr_q[2] R=rst
-.attr src "top.v:25|Max7219.v:110|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:113|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=M_max_addr_in[3] E=$abc$4406$n163 Q=max.M_addr_q[3] R=rst
-.attr src "top.v:25|Max7219.v:110|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:113|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFE C=CLK D=$false E=$abc$4406$n163 Q=max.M_addr_q[4]
-.attr src "top.v:25|Max7219.v:110|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:113|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFE C=CLK D=$false E=$abc$4406$n163 Q=max.M_addr_q[5]
-.attr src "top.v:25|Max7219.v:110|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:113|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFE C=CLK D=$false E=$abc$4406$n163 Q=max.M_addr_q[6]
-.attr src "top.v:25|Max7219.v:110|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:113|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFE C=CLK D=$false E=$abc$4406$n163 Q=max.M_addr_q[7]
-.attr src "top.v:25|Max7219.v:110|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:113|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=max.M_load_state_d E=$abc$4406$n165 Q=max.M_load_state_q R=rst
-.attr src "top.v:25|Max7219.v:110|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:113|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=max.din[0] E=$abc$4406$n163 Q=max.M_data_q[0] R=rst
-.attr src "top.v:25|Max7219.v:110|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:113|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=max.din[1] E=$abc$4406$n163 Q=max.M_data_q[1] R=rst
-.attr src "top.v:25|Max7219.v:110|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:113|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=max.din[2] E=$abc$4406$n163 Q=max.M_data_q[2] R=rst
-.attr src "top.v:25|Max7219.v:110|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:113|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=max.din[3] E=$abc$4406$n163 Q=max.M_data_q[3] R=rst
-.attr src "top.v:25|Max7219.v:110|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:113|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=max.din[4] E=$abc$4406$n163 Q=max.M_data_q[4] R=rst
-.attr src "top.v:25|Max7219.v:110|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:113|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=max.din[5] E=$abc$4406$n163 Q=max.M_data_q[5] R=rst
-.attr src "top.v:25|Max7219.v:110|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:113|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=max.din[6] E=$abc$4406$n163 Q=max.M_data_q[6] R=rst
-.attr src "top.v:25|Max7219.v:110|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:113|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFE C=CLK D=$false E=$abc$4406$n163 Q=max.M_data_q[7]
-.attr src "top.v:25|Max7219.v:110|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:113|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=max.M_state_d[0] E=$abc$4406$n168 Q=max.M_state_q[0] R=rst
-.attr src "top.v:25|Max7219.v:110|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:113|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=max.M_state_d[1] E=$abc$4406$n168 Q=max.M_state_q[1] R=rst
-.attr src "top.v:25|Max7219.v:110|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:113|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFSR C=CLK D=$techmap\max.spi.$add$spi_master.v:63$24_Y[0] Q=max.spi.M_sck_reg_q[0] R=$abc$4406$n1
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
 .gate SB_DFFESR C=CLK D=$abc$4406$n315 E=$abc$4406$n171 Q=max.spi.M_sck_reg_q[1] R=$abc$4406$n1
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFSR C=CLK D=$techmap\max.spi.$add$spi_master.v:63$24_Y[2] Q=max.spi.M_sck_reg_q[2] R=$abc$4406$n1
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
 .gate SB_DFFSR C=CLK D=$techmap\max.spi.$add$spi_master.v:63$24_Y[3] Q=max.spi.M_sck_reg_q[3] R=$abc$4406$n1
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
 .gate SB_DFFSR C=CLK D=$techmap\max.spi.$add$spi_master.v:63$24_Y[4] Q=max.spi.M_sck_reg_q[4] R=$abc$4406$n1
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
 .gate SB_DFFSR C=CLK D=$techmap\max.spi.$add$spi_master.v:63$24_Y[5] Q=max.spi.M_sck_reg_q[5] R=$abc$4406$n1
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
 .gate SB_DFFSR C=CLK D=$techmap\max.spi.$add$spi_master.v:63$24_Y[6] Q=max.spi.M_sck_reg_q[6] R=$abc$4406$n1
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
 .gate SB_DFFSR C=CLK D=$techmap\max.spi.$add$spi_master.v:63$24_Y[7] Q=max.spi.M_sck_reg_q[7] R=$abc$4406$n1
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
 .gate SB_DFFE C=CLK D=max.spi.M_mosi_reg_d E=$abc$4406$n174 Q=max.spi.M_mosi_reg_q
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=$techmap\max.spi.$2\M_ctr_d[2:0][0] E=$abc$4406$n192 Q=max.spi.M_ctr_q[0] R=$abc$4406$n1
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=$abc$4406$n314 E=$abc$4406$n190 Q=max.spi.M_ctr_q[1] R=$abc$4406$n1
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=$techmap\max.spi.$2\M_ctr_d[2:0][2] E=$abc$4406$n192 Q=max.spi.M_ctr_q[2] R=$abc$4406$n1
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=max.spi.data_in[0] E=$abc$4406$n196 Q=max.spi.M_data_q[0] R=max.spi.M_state_q
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFE C=CLK D=max.spi.M_data_d[1] E=$abc$4406$n196 Q=max.spi.M_data_q[1]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFE C=CLK D=max.spi.M_data_d[2] E=$abc$4406$n196 Q=max.spi.M_data_q[2]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFE C=CLK D=max.spi.M_data_d[3] E=$abc$4406$n196 Q=max.spi.M_data_q[3]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFE C=CLK D=max.spi.M_data_d[4] E=$abc$4406$n196 Q=max.spi.M_data_q[4]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFE C=CLK D=max.spi.M_data_d[5] E=$abc$4406$n196 Q=max.spi.M_data_q[5]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFE C=CLK D=max.spi.M_data_d[6] E=$abc$4406$n196 Q=max.spi.M_data_q[6]
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFE C=CLK D=max.spi.M_data_d[7] E=$abc$4406$n196 Q=max.spi.M_mosi_reg_d
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFSR C=CLK D=max.spi.M_state_d Q=max.spi.M_state_q R=rst
-.attr src "top.v:25|Max7219.v:33|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
+.attr src "top.v:26|Max7219.v:34|spi_master.v:83|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
 .gate SB_DFFSR C=max.count.clk D=max.count.M_ctr_d[0] Q=max.count.M_ctr_q[0] R=max.M_count_rst
-.attr src "top.v:25|Max7219.v:56|counter.v:47|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
+.attr src "top.v:26|Max7219.v:59|counter.v:47|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
 .gate SB_DFFESR C=max.count.clk D=max.count.M_ctr_d[1] E=$abc$4406$n200 Q=max.count.M_ctr_q[1] R=max.M_count_rst
-.attr src "top.v:25|Max7219.v:56|counter.v:47|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:26|Max7219.v:59|counter.v:47|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFSR C=max.count.clk D=max.count.M_ctr_d[2] Q=max.count.M_ctr_q[2] R=max.M_count_rst
-.attr src "top.v:25|Max7219.v:56|counter.v:47|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
+.attr src "top.v:26|Max7219.v:59|counter.v:47|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
 .gate SB_DFFSR C=max.count.clk D=max.count.M_ctr_d[3] Q=max.count.M_ctr_q[3] R=max.M_count_rst
-.attr src "top.v:25|Max7219.v:56|counter.v:47|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
+.attr src "top.v:26|Max7219.v:59|counter.v:47|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
 .gate SB_DFFSR C=max.count.clk D=max.count.M_ctr_d[4] Q=max.count.M_ctr_q[4] R=max.M_count_rst
-.attr src "top.v:25|Max7219.v:56|counter.v:47|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
+.attr src "top.v:26|Max7219.v:59|counter.v:47|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
 .gate SB_DFFSR C=max.count.clk D=max.count.M_ctr_d[5] Q=max.count.M_ctr_q[5] R=max.M_count_rst
-.attr src "top.v:25|Max7219.v:56|counter.v:47|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
+.attr src "top.v:26|Max7219.v:59|counter.v:47|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
 .gate SB_DFFSR C=max.count.clk D=max.count.M_ctr_d[6] Q=max.count.M_ctr_q[6] R=max.M_count_rst
-.attr src "top.v:25|Max7219.v:56|counter.v:47|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
+.attr src "top.v:26|Max7219.v:59|counter.v:47|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
 .gate SB_DFFSR C=max.count.clk D=max.count.M_ctr_d[7] Q=max.count.M_ctr_q[7] R=max.M_count_rst
-.attr src "top.v:25|Max7219.v:56|counter.v:47|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
+.attr src "top.v:26|Max7219.v:59|counter.v:47|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:2"
 .gate SB_DFFESR C=CLK D=M_state_d[0] E=$abc$4406$n201 Q=M_state_q[0] R=rst
-.attr src "top.v:155|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:158|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=M_state_d[1] E=$abc$4406$n201 Q=M_state_q[1] R=rst
-.attr src "top.v:155|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:158|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .gate SB_DFFESR C=CLK D=M_state_d[2] E=$abc$4406$n201 Q=M_state_q[2] R=rst
-.attr src "top.v:155|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
+.attr src "top.v:158|C:\\Users\\Michael\\APIO~1\\packages\\TOOLCH~1\\bin\\../share/yosys/ice40/cells_map.v:8"
 .names max.M_load_state_q M_max_cs
 1 1
 .names max.din[0] M_max_din[0]
